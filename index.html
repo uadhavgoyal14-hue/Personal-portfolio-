@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header>
+        <nav>
+            <h2 class="logo">Portfolio</h2>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="home" class="hero">
+        <h1>Hello, I'm Uadhav </h1>
+        <p>Web Developer & Computer Science Student</p>
+        <button onclick="scrollToSection('contact')">
+            Hire Me
+        </button>
+    </section>
+
+    <section id="about">
+        <h2>About Me</h2>
+        <p>
+           I have just started my journey in web development and I am a passionate web developer interested in
+            creating modern and responsive websites using
+            HTML, CSS, and JavaScript.
+        </p>
+    </section>
+
+    <section id="skills">
+        <h2>Skills</h2>
+
+        <div class="skills-container">
+            <div class="skill-card">HTML</div>
+            <div class="skill-card">CSS</div>
+            <div class="skill-card">JavaScript</div>
+            <div class="skill-card">Python</div>
+            <div class="skill-card">GitHub</div>
+            <div class="skill-card">C++</div>
+        </div>
+    </section>
+
+    <section id="projects">
+        <h2>Projects</h2>
+
+        <div class="project-container">
+
+             <div class="project-card project-card-left">
+                 <h3>Digital Clock & Stopwatch</h3>
+                 <p>A real-time digital clock and stopwatch built using JavaScript.</p>
+                 </div>
+
+            <div class="project-card project-card-center">
+                 <h3>Fitness Progress Dashboard</h3>
+                 <p>Dashboard for tracking workouts, calories, and fitness goals.</p>
+            </div>
+
+            <div class="project-card project-card-right">
+                 <h3>Portfolio Website</h3>
+                 <p>Responsive personal portfolio website showcasing skills and projects.</p>
+            </div>
+
+        </div>
+    </section>
+
+    <button id="topBtn">↑</button>
+
+    <script src="script.js"></script>
+
+</body>
+</html>
